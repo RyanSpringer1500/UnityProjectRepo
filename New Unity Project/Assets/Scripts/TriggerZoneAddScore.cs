@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ * (Ryan Springer)
+ * (Assignment2)
+ * (adjusts score when player hits trigger
+ *  
+		 */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+* (Ryan Springer)
+ * (Assignment2)
+* (detects when the player runs into a trigger
+ *  
+		 */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

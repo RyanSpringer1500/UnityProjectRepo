@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+* (Ryan Springer)
+ * (Assignment2)
+* (allows player to control car
+ * 
+		 */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ * (Ryan Springer)
+ * (Assignment2)
+* (keeps track of scoring and depends the end of the game
+ *  
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
