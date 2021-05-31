@@ -1019,6 +1019,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d29565568c8fb243af51fcaa99df7d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &352011255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352011253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e3b4c13ef0312b46832023c35ae3084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &352011256
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4502,7 +4514,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &1919939946
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4804,7 +4816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1685a4ce74e1e64bbfa4473d664e468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textbox: {fileID: 0}
+  textbox: {fileID: 1919939945}
 --- !u!4 &2122624458
 Transform:
   m_ObjectHideFlags: 0
