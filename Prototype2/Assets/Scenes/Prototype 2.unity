@@ -1457,7 +1457,7 @@ MonoBehaviour:
   - {fileID: 5818242444334581115, guid: af3ee6bc995d4a64b8c52031980c51c1, type: 3}
   - {fileID: 4646717136668746594, guid: 1e80aedf1f8ed4c4cb31c70136cac8bf, type: 3}
   - {fileID: 3156083951515874539, guid: 65c23e2cd0e6eee42aec760d390129a1, type: 3}
-  healthSystem: {fileID: 0}
+  healthSystem: {fileID: 1314452655}
 --- !u!4 &1678670650
 Transform:
   m_ObjectHideFlags: 0
