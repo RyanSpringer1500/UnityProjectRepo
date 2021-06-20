@@ -322,7 +322,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'math problems:'
+  m_Text: 'math problems:
+
+    1) 2+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Type Answer: '
 --- !u!222 &289246220
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -701,7 +717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: gamer over
+  m_Text: 
 --- !u!222 &769816955
 CanvasRenderer:
   m_ObjectHideFlags: 0
