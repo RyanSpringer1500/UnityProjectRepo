@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/* * (Ryan Springer) *
+ * (Assignment4) * 
+ * (updates score) */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/* * (Ryan Springer) *
+ * (Assignment4) * 
+ * (spawns objects in game) */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

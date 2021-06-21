@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* * (Ryan Springer) *
+ * (Assignment4) * 
+ * (Moves the camera and bacakground left) */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

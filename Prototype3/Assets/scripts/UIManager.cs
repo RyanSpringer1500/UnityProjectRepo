@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/* * (Ryan Springer) *
+ * (Assignment4) * 
+ * (manages text) */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
