@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/* * (Ryan Springer) 
+ * * (Assignment5) 
+ * * (player interaction with collectables) */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,6 +24,7 @@ public class GemBehaviour : MonoBehaviour
 	{
 		if (theCollider.CompareTag ("Player")) {
 			GemCollected ();
+            TriggerZoneGoal.score++;
 		}
 	}
 
