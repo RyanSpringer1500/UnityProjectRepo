@@ -1,32 +1,29 @@
 ﻿/** (Ryan Springer) * 
  * (Assignment6) * 
- * (manages a type of enemy) */
+ * (player stats) */
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Golem : Enemy
+public class PlayerCharacter : Player
 {
-
     protected int damage;
-    // Start is called before the first frame update
+   
     protected override void Awake()
     {
         base.Awake();
-        health = 120;
-        GameManager.Instance.score += 2;
+        health = 25;
+        GameManager.Instance.score += 4;
+        speed = 7f;
     }
     protected override void Attack(int amount)
     {
-        Debug.Log("Golem attacks!");
+        Debug.Log("Player attacks!");
     }
 
     public override void TakeDamage(int amount)
     {
-        Debug.Log("Golem took" + amount + "points of damage");
+        Debug.Log("You took" + amount + "points of damage");
     }
 }
-
-   
-  
