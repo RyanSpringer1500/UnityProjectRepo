@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer) * 
+ * (Assignment6) * 
+ * (taking damage for player) */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

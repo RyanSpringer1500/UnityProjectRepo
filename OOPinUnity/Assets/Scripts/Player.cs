@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer) * 
+ * (Assignment6) * 
+ * (player health and speed manager) */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
