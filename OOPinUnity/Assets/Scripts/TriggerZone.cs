@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer) * 
+ * (Assignment6) * 
+ * (triggers win condition) */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

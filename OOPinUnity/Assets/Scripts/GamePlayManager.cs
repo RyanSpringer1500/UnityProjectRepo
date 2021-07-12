@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer) * 
+ * (Assignment6) * 
+ * (determines if player wins) */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

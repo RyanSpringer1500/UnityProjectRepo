@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿
+/** (Ryan Springer) * 
+ * (Assignment6) * 
+ * (checks if player goes off the plane) */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
