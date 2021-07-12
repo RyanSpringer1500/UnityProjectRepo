@@ -12,7 +12,7 @@ public class GameManager  : Sinlgeton<GameManager>
     public int score;
     public GameObject pauseMenu;
 
-    private string CurrentLevelName = string.Empty;
+    protected string CurrentLevelName = string.Empty;
 
     /*#region this code makes this class a singleton
     public  static GameManager instance;

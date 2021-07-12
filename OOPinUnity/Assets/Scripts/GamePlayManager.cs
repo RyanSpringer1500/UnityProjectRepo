@@ -13,7 +13,10 @@ public class GamePlayManager : MonoBehaviour
 
     public static bool gameOver = false;
     public static bool won = false;
+    //protected string CurrentLevelName;
     public Text textbox;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,7 @@ public class GamePlayManager : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                
             }
         }
     }
