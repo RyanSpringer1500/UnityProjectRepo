@@ -6,16 +6,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
+public class PlayerControl : TrashPickUp
 {
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
 
-  
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
+    // Use this for initialization
+    void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+    }
     
-
-    void ComputeVelocity()
+    protected override void ComputeVelocity()
     {
         Vector2 move = Vector2.zero;
 
@@ -33,9 +39,25 @@ public class PlayerControl : MonoBehaviour
             }
         }
 
-       
+        if (move.x > 0.01f)
+        {
+            if (spriteRenderer.flipX == true)
+            {
+                spriteRenderer.flipX = false;
+            }
+        }
+        else if (move.x < -0.01f)
+        {
+            if (spriteRenderer.flipX == false)
+            {
+                spriteRenderer.flipX = true;
+            }
+        }
 
-       
+       animator.SetBool("grounded", grounded);
+        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+        animator.SetFloat("velocityY", velocity.y);
 
         targetVelocity = move * maxSpeed;
     }
+}
