@@ -9,31 +9,28 @@ using UnityEngine;
 public class TrashBeGone : MonoBehaviour
 {
     [Header("References")]
-    public GameObject gemVisuals;
+    public GameObject TrashVisuals;
     public GameObject collectedParticleSystem;
-    public CircleCollider2D gemCollider2D;
+    public CircleCollider2D TrashCollider2D;
 
     private float durationOfCollectedParticleSystem;
 
 
-    void Start()
-    {
-        durationOfCollectedParticleSystem = collectedParticleSystem.GetComponent<ParticleSystem>().main.duration;
-    }
+    
 
     void OnTriggerEnter2D(Collider2D theCollider)
     {
         if (theCollider.CompareTag("Player"))
         {
-            GemCollected();
+            TrashCollected();
            
         }
     }
 
-    void GemCollected()
+    void TrashCollected()
     {
-        gemCollider2D.enabled = false;
-        gemVisuals.SetActive(false);
+        TrashCollider2D.enabled = false;
+        TrashVisuals.SetActive(false);
         collectedParticleSystem.SetActive(true);
         Invoke("DeactivateGemGameObject", durationOfCollectedParticleSystem);
 
