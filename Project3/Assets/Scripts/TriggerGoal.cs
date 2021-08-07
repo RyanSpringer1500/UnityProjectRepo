@@ -9,6 +9,9 @@ public class TriggerGoal : MonoBehaviour
         if (theCollider.CompareTag("Finish"))
         {
             ScoreManager.gameOver = true;
+            
+            //for testing the end goal 
+            //ScoreManager.won = true;
         }
     }
 }

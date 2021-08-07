@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour
             textbox.text = "  ";
 
         }
-        if(score == 16)
+        if(score == 14)
         {
             won = true;
         }

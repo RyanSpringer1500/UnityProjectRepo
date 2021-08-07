@@ -8,7 +8,7 @@ public class OutofBounds : MonoBehaviour
 {
      void Update()
     {
-        if(transform.position.y < -10)
+        if(transform.position.y < -5)
         {
             ScoreManager.gameOver = true;
         }

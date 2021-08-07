@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: end goal
+    uniqueID: 2585394161
+    locked: 0
