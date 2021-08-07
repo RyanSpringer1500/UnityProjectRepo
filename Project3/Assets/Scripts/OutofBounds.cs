@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer)* 
+ * (project 3)* 
+ * (checks to see if player fell off the level)*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer)* 
+ * (project 3)* 
+ * (tracks player's progress)*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

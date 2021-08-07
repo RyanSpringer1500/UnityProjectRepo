@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer)* 
+ * (project 3)* 
+ * (manages game physics)*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

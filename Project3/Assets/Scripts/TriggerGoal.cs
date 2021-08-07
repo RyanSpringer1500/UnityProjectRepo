@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer)* 
+ * (project 3)* 
+ * (triggers end goal)*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

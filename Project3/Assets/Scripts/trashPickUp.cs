@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer)* 
+ * (project 3)* 
+ * (destorys trash when pick up by player)*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

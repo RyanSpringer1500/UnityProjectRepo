@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/** (Ryan Springer)* 
+ * (project 3)* 
+ * (controls player character)*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
